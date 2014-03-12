@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="css/main_page.css">
+		<link rel="stylesheet" type="text/css" href="css/register-login.css">
+	</head>
+	<body>
+		<div id="top_bar">
+			<div id="inner_top_bar">
+				<table>
+					<tr>
+						<td>
+							<input id="search_field" type="text" size="26" />
+							<input id="search_button" type="submit" value="" />
+						</td>
+						<td><a href="login.html">login</a></td>
+						<td><a href="register.html">register</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="header">
+			<h1>GAMER.com</h1>
+		</div> <!-- END HEADER -->
+		<div id="nav">
+			<ul>
+				<li class="start"><a href="index.html">Home</a></li>
+				<li><a href="toys.html">Toys</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="basket.html">Basket</a></li>
+			</ul>
+		</div> <!-- END NAV -->
+		<div id="content">
+			<div id="register-container">
+				<h2>Login</h2>
+				<!-- <p>Please enter your details below.</p> -->
+				<table id="register">
+					<form method="post" onsubmit="return validate(this)">
+						<tr>
+							<td>E-mail:</td>
+							<td><input type="text" maxlength="32" name="dob"></td>
+						</tr>
+						<tr>
+							<td>Password:</td>
+							<td><input type="text" maxlength="32" name="password"></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><input id="register-submit" type="submit" value="Submit" /></td>
+						</tr>
+					</form>
+				</table>
+				<p>If you're not registered then go ahead and <a href="register.html">register now</a>.</p>
+			</div>
+		</div> <!-- END CONTENT -->
+		<div id="footer">
+			<p>Footer</p>
+		</div> <!-- END FOOTER -->
+	</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="css/main_page.css">
+		<link rel="stylesheet" type="text/css" href="css/register-login.css">
+	</head>
+	<body>
+		<div id="top_bar">
+			<div id="inner_top_bar">
+				<table>
+					<tr>
+						<td>
+							<input id="search_field" type="text" size="26" />
+							<input id="search_button" type="submit" value="" />
+						</td>
+						<td><a href="login.html">login</a></td>
+						<td><a href="register.html">register</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="header">
+			<h1>GAMER.com</h1>
+		</div> <!-- END HEADER -->
+		<div id="nav">
+			<ul>
+				<li class="start"><a href="index.html">Home</a></li>
+				<li><a href="toys.html">Toys</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="basket.html">Basket</a></li>
+			</ul>
+		</div> <!-- END NAV -->
+		<div id="content">
+			<div id="register-container">
+				<h2>Registration</h2>
+				<p>Personal Details</p>
+				<form method="post" onsubmit="return validate(this)">
+					<table>
+						<tr>
+							<td>Forename:</td>
+							<td><input type="text" maxlength="32" name="forename"></td>
+						</tr>
+						<tr>
+							<td>Surname:</td>
+							<td><input type="text" maxlength="32" name="surname"></td>
+						</tr>
+						<tr>
+							<td>E-mail:</td>
+							<td><input type="text" maxlength="32" name="dob"></td>
+						</tr>
+						<tr>
+							<td>Password:</td>
+							<td><input type="text" maxlength="32" name="password"></td>
+						</tr>
+						<tr>
+							<td>Confirm password:</td>
+							<td><input type="text" maxlength="32" name="conf-password"></td>
+						</tr>
+					</table>
+					<p>Billing Details</p>
+					<table>
+						<tr>
+							<td>Credit card number:</td>
+							<td><input type="text" maxlength="7" name="postcode"></td>
+						</tr>
+						<tr>
+							<td>Expiry date:</td>
+							<td><input type="text" maxlength="7" name="postcode"></td>
+						</tr>
+					</table>
+					<br/>
+					<table>
+						<tr>
+							<td>House number:</td>
+							<td><input type="text" maxlength="4" name="housenum"></td>
+						</tr>
+						<tr>
+							<td>Street name:</td>
+							<td><input type="text" maxlength="32" name="streetname"></td>
+						</tr>
+						<tr>
+							<td>Post code:</td>
+							<td><input type="text" maxlength="7" name="postcode"></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><input id="register-submit" type="submit" value="Submit" /></td>
+						</tr>
+					
+					</table>
+				</form>
+				<p>If you're already registered then go ahead and <a href="login.html">login</a>.</p>
+			</div>
+		</div> <!-- END CONTENT -->
+		<div id="footer">
+			<p>Footer</p>
+		</div> <!-- END FOOTER -->
+	</body>
+</html>
