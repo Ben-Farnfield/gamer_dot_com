@@ -1,0 +1,40 @@
+/* ITEM ----------------------
+*/
+.item {
+	border: 1px solid #D1D1D1;
+	border-style: none solid;
+	float: left;
+	height: 500px;
+	margin: 10px;
+	padding: 10px;
+	width: 278px;
+}
+
+.item img {
+	display: none;
+	height: 200px;
+	margin: 5px 0px;
+	width: 278px;
+}
+
+.item h2 {
+	text-align: center;
+}
+
+.item p {
+	text-align: justify;
+}
+
+span.price {
+	text-shadow: 1px 1px 1px #666;
+	color: #B20000;
+}
+
+.item input {
+	background-color: #E0E0E0;
+	border: 1px solid #D1D1D1;
+	height: 30px;
+	width: 150px;
+	display: block;
+	margin: 0px auto;
+}

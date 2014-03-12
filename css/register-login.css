@@ -1,0 +1,43 @@
+#register-container {
+	border: 1px solid #D1D1D1;
+	border-style: none solid;
+	margin: 60px auto;
+	padding: 20px;
+	width: 610px;
+}
+
+#register-container table{
+	margin: 0px auto 0px auto;
+}
+
+#register-container td {
+	text-align: right;
+	width: 155px;
+}
+
+#register-container input {
+	border: 1px solid #D1D1D1;
+	height: 23px;
+}
+
+#register-container p {
+	text-align: center;
+}
+
+#register-container h2 {
+	line-height: 0px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#register-container a {
+	color: #B20000;
+}
+
+input#register-submit {
+	background-color: #E0E0E0;
+	height: 30px;
+	width: 80px;
+	display: block;
+	margin: 30px auto 20px auto;
+}
