@@ -33,23 +33,22 @@
 			</ul>
 		</div> <!-- END NAV -->
 		<div id="content">
-			<div id="register-container">
+			<div id="reg-cont">
 				<h2>Login</h2>
-				<!-- <p>Please enter your details below.</p> -->
-				<table id="register">
-					<form method="post" onsubmit="return validate(this)">
+				<table>
+					<form method="post" onsubmit="">
 						<tr>
-							<td>E-mail:</td>
-							<td><input type="text" maxlength="32" name="dob"></td>
-							<td><p id="enter-email"></p></td>
+							<td class="input-title">E-mail:</td>
+							<td class="input"><input id="email" type="text" maxlength="32" name="dob"></td>
+							<td id="error-email" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Password:</td>
-							<td><input type="text" maxlength="32" name="password"></td>
-							<td><p id="enter-pass"></p></td>
+							<td class="input-title">Password:</td>
+							<td class="input"><input id="pass" type="text" maxlength="32" name="password"></td>
+							<td id="error-pass" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td colspan="3" align="center"><input id="register-submit" type="submit" value="Submit" /></td>
+							<td colspan="3" align="center"><input id="submit-button" type="submit" value="Submit" /></td>
 						</tr>
 					</form>
 				</table>
@@ -61,7 +60,8 @@
 		</div> <!-- END FOOTER -->
 
 		<!-- SCRIPTS -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+		<script src="lib/jquery-1.11.0.js"></script>
 		<script src="src/form.js"></script>
 	</body>
 </html>

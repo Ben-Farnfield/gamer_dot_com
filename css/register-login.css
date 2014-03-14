@@ -1,4 +1,4 @@
-#register-container {
+#reg-cont {
 	border: 1px solid #D1D1D1;
 	border-style: none solid;
 	margin: 60px auto;
@@ -6,35 +6,50 @@
 	width: 610px;
 }
 
-#register-container table{
+#reg-cont table{
 	margin: 0px auto 0px auto;
+	border-spacing: 0px 5px;
 }
 
-#register-container td {
+td.input {
+	text-align: center;
+	width: 200px;
+}
+
+td.input-title {
 	text-align: right;
-	width: 155px;
+	width: 200px;
 }
 
-#register-container input {
+td.error-msg {
+	color: #B20000;
+	line-height: 0px;
+	font-size: 10pt;
+	font-style: italic;
+	text-align: left;
+	width: 200px;
+}
+
+#reg-cont input {
 	border: 1px solid #D1D1D1;
 	height: 23px;
 }
 
-#register-container p {
+#reg-cont p {
 	text-align: center;
 }
 
-#register-container h2 {
+#reg-cont h2 {
 	line-height: 0px;
 	margin-bottom: 40px;
 	text-align: center;
 }
 
-#register-container a {
+#reg-cont a {
 	color: #B20000;
 }
 
-input#register-submit {
+input#submit-button {
 	background-color: #E0E0E0;
 	height: 30px;
 	width: 80px;
