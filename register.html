@@ -33,61 +33,70 @@
 			</ul>
 		</div> <!-- END NAV -->
 		<div id="content">
-			<div id="register-container">
+			<div id="reg-cont">
 				<h2>Registration</h2>
 				<p>Personal Details</p>
-				<form method="post" onsubmit="return validate(this)">
+				<form method="post" onsubmit="">
 					<table>
 						<tr>
-							<td>Forename:</td>
-							<td><input type="text" maxlength="32" name="forename"></td>
+							<td class="input-title">Forename:</td>
+							<td class="input"><input type="text" maxlength="32" name="forename"></td>
+							<td id="error-forename" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Surname:</td>
-							<td><input type="text" maxlength="32" name="surname"></td>
+							<td class="input-title">Surname:</td>
+							<td class="input"><input type="text" maxlength="32" name="surname"></td>
+							<td id="error-surname" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>E-mail:</td>
-							<td><input type="text" maxlength="32" name="dob"></td>
+							<td class="input-title">E-mail:</td>
+							<td class="input"><input id="email" type="text" maxlength="32" name="dob"></td>
+							<td id="error-email" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Password:</td>
-							<td><input type="text" maxlength="32" name="password"></td>
+							<td class="input-title">Password:</td>
+							<td class="input"><input id="pass" type="text" maxlength="32" name="password"></td>
+							<td id="error-pass" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Confirm password:</td>
-							<td><input type="text" maxlength="32" name="conf-password"></td>
+							<td class="input-title">Confirm password:</td>
+							<td class="input"><input type="text" maxlength="32" name="conf-password"></td>
+							<td id="error-conf-pass" class="error-msg"></td>
 						</tr>
 					</table>
 					<p>Billing Details</p>
 					<table>
 						<tr>
-							<td>Credit card number:</td>
-							<td><input type="text" maxlength="7" name="postcode"></td>
+							<td class="input-title">Credit card number:</td>
+							<td class="input"><input type="text" maxlength="7" name="postcode"></td>
+							<td id="error-cred-card" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Expiry date:</td>
-							<td><input type="text" maxlength="7" name="postcode"></td>
+							<td class="input-title">Expiry date:</td>
+							<td class="input"><input type="text" maxlength="7" name="postcode"></td>
+							<td id="error-exp-date" class="error-msg"></td>
 						</tr>
 					</table>
 					<br/>
 					<table>
 						<tr>
-							<td>House number:</td>
-							<td><input type="text" maxlength="4" name="housenum"></td>
+							<td class="input-title">House number:</td>
+							<td class="input"><input type="text" maxlength="4" name="housenum"></td>
+							<td id="error-house-num" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Street name:</td>
-							<td><input type="text" maxlength="32" name="streetname"></td>
+							<td class="input-title">Street name:</td>
+							<td class="input"><input type="text" maxlength="32" name="streetname"></td>
+							<td id="error-street-name" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td>Post code:</td>
-							<td><input type="text" maxlength="7" name="postcode"></td>
+							<td class="input-title">Post code:</td>
+							<td class="input"><input type="text" maxlength="7" name="postcode"></td>
+							<td id="error-post-code" class="error-msg"></td>
 						</tr>
 						<tr>
-							<td colspan="2" align="center"><input id="register-submit" type="submit" value="Submit" /></td>
+							<td colspan="3" align="center"><input id="submit" type="submit" value="Submit" /></td>
 						</tr>
-					
 					</table>
 				</form>
 				<p>If you're already registered then go ahead and <a href="login.html">login</a>.</p>
@@ -96,5 +105,10 @@
 		<div id="footer">
 			<p>Footer</p>
 		</div> <!-- END FOOTER -->
+
+		<!-- SCRIPTS -->
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+		<script src="lib/jquery-1.11.0.js"></script>
+		<script src="src/form.js"></script>
 	</body>
 </html>
