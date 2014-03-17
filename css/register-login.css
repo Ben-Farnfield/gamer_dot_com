@@ -1,6 +1,4 @@
 #reg-cont {
-	border: 1px solid #D1D1D1;
-	border-style: none solid;
 	margin: 60px auto;
 	padding: 20px;
 	width: 610px;
@@ -46,7 +44,7 @@ td.error-msg {
 }
 
 #reg-cont a {
-	color: #B20000;
+	color: #0087EC;
 }
 
 input#submit-button {

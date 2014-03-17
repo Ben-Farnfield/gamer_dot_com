@@ -1,17 +1,15 @@
 /* ITEM ----------------------
 */
 .item {
-	border: 1px solid #D1D1D1;
-	border-style: none solid;
 	float: left;
 	height: 500px;
-	margin: 10px;
+	margin: 11px;
 	padding: 10px;
 	width: 278px;
 }
 
 .item img {
-	display: none;
+	/*display: none;*/
 	height: 200px;
 	margin: 5px 0px;
 	width: 278px;
@@ -26,8 +24,7 @@
 }
 
 span.price {
-	text-shadow: 1px 1px 1px #666;
-	color: #B20000;
+	/*color: #0087EC;*/
 }
 
 .item input {
@@ -37,4 +34,8 @@ span.price {
 	width: 150px;
 	display: block;
 	margin: 0px auto;
+}
+
+.item input:hover {
+	background-color: #F0F0F0;
 }
